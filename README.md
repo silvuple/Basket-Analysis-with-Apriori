@@ -15,3 +15,29 @@ It is a transnational data set which contains all the transactions occurring bet
 * Mlextend
 * Pandas
 * Excel
+
+
+
+### Apriori algorithm parameters summary:
+
+#### Support 
+support is fraction of transactions that contain item X or itemset (X+Y)
+
+support = 0.05 for example means that the item appears in 5% of the transactions
+
+#### Confidence 
+confidence is how often item Y appears in the transactions that contain item X
+
+confidence 0.27 for example means that item Y appears in 27% of all transactions with item X
+
+#### Lift 
+lift is how much our confidence wil increase that Y will be purchased once X is added to the basket
+
+lift > 1: item Y is likely to be purchased when item X is purchased
+
+lift < 1: item Y is unlikely to be purchased when item X is purchased
+
+lift = 1.4 for example means that once item X is purchased the likelihood that item Y will be purchased increases 40%
+
+#### Conviction 
+conviction = 1.32 for example means that the rule would be incorrect 32% more often if the association between X and Y was and accidental chance
