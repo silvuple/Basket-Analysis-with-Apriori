@@ -31,7 +31,7 @@ confidence is how often item Y appears in the transactions that contain item X
 confidence 0.27 for example means that item Y appears in 27% of all transactions with item X
 
 #### Lift 
-lift is how much our confidence wil increase that Y will be purchased once X is added to the basket
+lift is how much our confidence will increase that Y will be purchased once X is added to the basket
 
 lift > 1: item Y is likely to be purchased when item X is purchased
 
